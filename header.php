@@ -16,14 +16,13 @@
     <meta name="author" content="">
     <title><?php wp_title(); ?></title>
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class();?>>
+<body <?php body_class(); ?>>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="new-container">
@@ -41,16 +40,10 @@
             <ul class="nav navbar-nav">
                 <li><a href="<?php echo get_home_url(); ?>">Головна</a></li>
                 <li class="dropdown">
-                    <a href="#category" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Категорії <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <!--
-                        <li><a href="#">Всі пости</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Без категорії</a></li>
-                        <li><a href="#">Категорія 1</a></li>
-                        <li><a href="#">Категорія 2</a></li>-->
                         <li><a href="<?php echo get_category_link(9); ?>">Всі пости</a></li>
                         <li class="divider"></li>
 
