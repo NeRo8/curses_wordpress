@@ -1,0 +1,115 @@
+.container {
+    margin-top: 60px;
+}
+
+.articles {
+    margin: 25px 0;
+    padding: 10px;
+    box-shadow: 10px 10px 25px 0 silver;
+}
+
+.articles hr {
+    margin: 0 0 5px 0;
+}
+
+.article-footer {
+    overflow: auto;
+}
+
+.article-author {
+    float: left;
+}
+
+.article-datepub {
+    float: right;
+}
+
+.category-article {
+    margin-top: 30px;
+}
+
+.category-title {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grp-articles {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 25px 0 silver;
+    width: 350px;
+    height: 400px;
+    float: left;
+}
+
+.grp-articles hr {
+    margin: 5px 0;
+}
+
+.grp-articles:hover {
+    box-shadow: 0 0 61px 8px #149c82;
+    margin-right: -10px;
+}
+
+.comment {
+    overflow: auto;
+    clear: both;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 20px 0 silver;
+    border-radius: 8px;
+}
+
+.comment a {
+    color: white;
+}
+
+.comment-list li {
+    list-style-type: none;
+}
+
+.comment-head {
+    background-color: #149c82;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+}
+
+.comment-head {
+    color: white;
+}
+
+.comment-author {
+    float: left;
+}
+
+.comment-datepub {
+    float: right;
+}
+
+.comment-msg {
+    clear: both;
+}
+
+.comment-body {
+    clear: both;
+    padding: 10px;
+}
+
+.comment-body {
+    border-radius: 0 0 8px 8px;
+}
+
+.comment-control a {
+    margin-right: 10px;
+}
+
+.comment-form-comment textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.categories li {
+    list-style-type: none;
+    padding-left: -5px;
+}
