@@ -26,7 +26,7 @@
                         Категорії <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="<?php echo get_category_link(9); ?>">Всі пости</a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('category-all')); ?>">Всі пости</a></li>
                         <li class="divider"></li>
 
                         <?php
@@ -37,7 +37,7 @@
                     </ul>
                 </li>
                 <li><a href="#about">Про нас</a></li>
-                <li><a href="#contact">Контакти</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('contact-us')) ?>">Зворотній зв’язок</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
